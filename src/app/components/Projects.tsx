@@ -11,16 +11,25 @@ const Work = () => {
 
                 <div data-aos="fade-in" className='grid sm:grid-cols-1 md:grid-cols-2 gap-8 py-4 w-auto px-4'>
                     <Link data-aos="fade-in" href={"https://flexforce-gymnasium.vercel.app/"} target='_main' title='FlexForce-Gymnasium Website'>
-                        <Image src="/website1.jpg" alt="" width={600} height={600} className='rounded-xl hover:scale-105 transition duration-300 ease-in-out transform' />
+                        <Image src={"/website1.jpg"} alt='Flex Force Website' width={600} height={600} className='hover:scale-105 duration-300' /> 
                     </Link>
+                   
+                   
+                   
                     <Link data-aos="fade-in" href={"https://praroz.vercel.app/"} target='_main' title='PraRoz Website'>
-                        <Image src="/website2.jpg" alt="" width={600} height={600} className='rounded-xl hover:scale-105 transition duration-300 ease-in-out transform' />
+                        <Image src={"/website2.jpg"} alt='PraRoz Website' width={600} height={600} className='hover:scale-105 duration-300'/>
                     </Link>
+                   
+                   
+                   
                     <Link data-aos="fade-in" href={"https://seaside-escape-gateways.vercel.app/"} target='_main' title='SeaSide_Escape-Gateways Website'>
-                        <Image src="/website3.jpg" alt="" width={600} height={600} className='rounded-xl hover:scale-105 transition duration-300 ease-in-out transform' />
+                        <Image src={"/website2.jpg"} alt='SeaSide Escape Gateways Website' width={600} height={600} className='hover:scale-105 duration-300'/> 
                     </Link>
+                    
+                    
+                    
                     <Link data-aos="fade-in" href={"https://sportswebsite.vercel.app/"} target='_main' title='Sports Website'>
-                        <Image src="/website4.jpg" alt="" width={600} height={600} className='rounded-xl hover:scale-105 transition duration-300 ease-in-out transform' />
+                        <Image src={"/website4.jpg"} alt='Sports Website' width={600} height={600} className='hover:scale-105 duration-300'/>
                     </Link>
 
                 </div>
