@@ -15,7 +15,7 @@ const ContactPage = () => {
       <div className='grid lg:grid-cols-2'>
         <div className='space-y-4 text-white px-4'>
           <h2 data-aos="fade-in" className='text-gray-600 text-3xl sm:text-4xl'>Get in Touch</h2>
-          <p data-aos="fade-in">I'd love if reached out to me. Even if it's just to say "Hey!". <br /> Don't hesitate! Drop me a line and i'll get back to you ASAP!</p>
+          <p data-aos="fade-in">I would love if reached out to me. Even if it is just to say Hey!. <br /> Do not hesitate! Drop me a line and i will get back to you ASAP!</p>
           <span data-aos="fade-in" className='flex gap-2'><MdEmail size={30} />muhammadtayyabmt0@gmail.com</span>
           <span data-aos="fade-in" className='flex gap-1'><BiPhone size={30} />+923257248184</span>
         </div>

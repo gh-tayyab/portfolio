@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
@@ -6,7 +7,7 @@ const About = () => {
   return (
     <div className='min-h-screen bg-neutral-950 gap-2 px-10 grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-4'>
         
-            <img data-aos="fade-up" src="/mine.png" alt="" width={400} height={400} />
+            <Image data-aos="fade-up" src="/mine.png" alt="" width={400} height={400} />
         
         <div data-aos="fade-up" className='text-white space-y-4'>
             <h1 data-aos="fade-up" className='font-bold text-4xl md:text-5xl lg:text-6xl text-[#34ebde]'>About Me</h1>

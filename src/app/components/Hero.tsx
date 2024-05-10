@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='h-screen bg-neutral-900 text-white'>
       <div className='h-screen flex flex-col justify-center items-center pt-2 space-y-2'>
-        <h1 className='font-semibold md:text-3xl sm:text-2xl text-xl'>👋🏻 HELLO I'M</h1>
+        <h1 className='font-semibold md:text-3xl sm:text-2xl text-xl'>👋🏻 HELLO I am</h1>
         <h1 className='text-3xl sm:text-4xl md:text-5xl text-[#34ebde] text-center'>Muhammad Tayyab</h1>
         <TypeAnimation
           sequence={[
@@ -22,7 +22,7 @@ const Hero = () => {
           repeat={Infinity}
           className='text-center'
         />
-        <p className='md:texl-xl text-sm text-center'>"Passionate Next.js frontend developer with a knack for crafting responsive and performant web applications."
+        <p className='md:texl-xl text-sm text-center'>Passionate Next.js frontend developer with a knack for crafting responsive and performant web applications.
         </p>
         <a href="/tayyab.pdf" download="tayyab.pdf" className='bg-[#34ebde] text-black px-4 py-2 rounded-full hover:bg-white'>Download CV</a>
       </div>
