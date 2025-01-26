@@ -13,7 +13,7 @@ const Hero = () => {
             // Same substring at the start will only be typed out once, initially
             'Frontend Developer',
             1000, // wait 1s before replacing "Mice" with "Hamsters"
-            'UI/UX DESIGNER',
+            'Agentic AI',
             1000
           ]}
           wrapper="span"
@@ -22,7 +22,7 @@ const Hero = () => {
           repeat={Infinity}
           className='text-center'
         />
-        <p className='md:texl-xl text-sm text-center'>Passionate Next.js frontend developer with a knack for crafting responsive and performant web applications.
+        <p className='md:texl-xl text-sm text-center'>As a passionate Agentic AI Engineer and skilled Web Developer
         </p>
         <a href="/tayyab-resume.pdf" download="tayyab-resume.pdf" className='bg-[#34ebde] text-black px-4 py-2 rounded-full hover:bg-white'>Download CV</a>
       </div>
