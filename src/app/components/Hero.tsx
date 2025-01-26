@@ -24,7 +24,7 @@ const Hero = () => {
         />
         <p className='md:texl-xl text-sm text-center'>Passionate Next.js frontend developer with a knack for crafting responsive and performant web applications.
         </p>
-        <a href="/tayyab-ai-engineer.pdf" download="tayyab.pdf" className='bg-[#34ebde] text-black px-4 py-2 rounded-full hover:bg-white'>Download CV</a>
+        <a href="/tayyab-resume.pdf" download="tayyab-resume.pdf" className='bg-[#34ebde] text-black px-4 py-2 rounded-full hover:bg-white'>Download CV</a>
       </div>
     </div>
   )
